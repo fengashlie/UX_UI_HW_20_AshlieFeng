@@ -9,61 +9,6 @@ header ul {
   float: right;
   color: white;
 }
-header li {
-  display: inline-block;
-  padding: 30px 5px;
-}
-header p {
-  display: inline-block;
-}
-.heroImg {
-  background-color: #e9dedf;
-  padding: 100px 15px;
-
-}
-.content {
-  max-width: 300px;
-  margin: 0 auto;
-  padding: 50px;
-  background-color: #eee5e6;
-  text-align: center;
-}
-.caseStudies {
-  font-size: 54px;
-  text-align: center;
-}
-.mySkills {
-  font-size: 54px;
-  text-align: center;
-}
-.flex-container {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  text-align: center;
-  font-size: 20px;
-  padding: 50px;
-}
-.flex-container div {
-  flex-grow: 1;
-  width: 100%;
-  padding: 65px;
-}
-.grid-container {
-  display: grid; 
-  grid-template-rows: 500px 500px 500px;
-  justify-content: space-evenly;
-  text-align: center;
-  font-size: 20px;
-  padding: 50px;
-}
-button {
-  padding: 15px;
-  background-color: #8f1929;
-  color: white;
-  font-size: 15px;
-  border-radius: 4px;
-}
 footer {
   background-color: #8f1929;
   padding: 5px;
@@ -76,17 +21,5 @@ footer ul {
 footer li {
   display: inline-block;
   padding: 0px 7px;
-}
-@media only screen and (max-width:600px) {
-  .flex-container div{ flex-direction: column;
-  width: 100%; }
-  .flex-container {
-  margin: 0px 5%;
-  display: grid;
-  grid-template-rows: 300px 300px 300px;
-  grid-template-colums: 1fr 1fr 1fr;
-  grid-template-areas:
-  "Project1"
-  "Project2"
-  "Project3"; }
+
 }
